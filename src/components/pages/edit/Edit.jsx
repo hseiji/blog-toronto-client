@@ -47,7 +47,7 @@ export default function Edit() {
         }
         try {
             const res = await axiosInstance.post("/posts", newPost); //http://localhost:8000/posts
-            window.location.replace("/posts/" + res.data._id);
+            window.location.replace("/#/posts/" + res.data._id);
         } catch (err) {
             setError(true);
         }
