@@ -33,15 +33,15 @@ export default function NavbarComp() {
                             </NavDropdown> */}
                         </Nav>
                         <Nav className="me-0">
-                            <Nav.Link href="/Edit">{user && "New Post"}</Nav.Link>
+                            <Nav.Link href="/#/Edit">{user && "New Post"}</Nav.Link>
                             <Nav.Link href="/#/login">{!user && "Login"}</Nav.Link>
-                            <Nav.Link href="/register">{!user && "Register"}</Nav.Link>
+                            <Nav.Link href="/#/register">{!user && "Register"}</Nav.Link>
                             {/* <Nav.Link href="/settings">{user && "Settings"}</Nav.Link> */}
                             <Nav.Link href="/" onClick={handleLogout}>{user && "Logout"}</Nav.Link>
                             {user && 
                                 ( user.profilePic ?
-                                (<Nav.Link href="/settings"><img className="topImg" src={PF + user.profilePic} alt="" /></Nav.Link>):
-                                (<Nav.Link href="/settings"><b>{user.username}</b></Nav.Link>)
+                                (<Nav.Link href="/#/settings"><img className="topImg" src={PF + user.profilePic} alt="" /></Nav.Link>):
+                                (<Nav.Link href="/#/settings"><b>{user.username}</b></Nav.Link>)
                             )}
                         </Nav>
                         {/* <Nav className="newPost">
