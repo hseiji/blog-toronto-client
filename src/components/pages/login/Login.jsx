@@ -19,7 +19,7 @@ export default function Login() {
         //It changes the state of our useReducer to LoginStart
         dispatch({type: "LOGIN_START"});
         try {
-            const res = await axiosInstance.post("/auth/login", { //http://localhost:8000/auth/login
+            const res = await axiosInstance.post("/login", { //http://localhost:8000/auth/login
                 username: userRef.current.value,
                 password: passwordRef.current.value
             });

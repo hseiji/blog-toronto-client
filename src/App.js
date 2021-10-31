@@ -9,7 +9,7 @@ import { useContext } from "react";
 import { Context } from "./components/context/Context";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
