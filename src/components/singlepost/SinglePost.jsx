@@ -4,7 +4,7 @@ import "./singlepost.css";
 
 //SinglePost is a summary of the post in the Home page
 export default function SinglePost({ post }) {
-    const PF = "http://localhost:8000/images/";
+    const PF = "https://blog-toronto.herokuapp.com/images/";
     
     return (
         <div className="singlepost">

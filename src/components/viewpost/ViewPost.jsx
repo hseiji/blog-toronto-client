@@ -55,7 +55,7 @@ export default function ViewPost() {
         }
     }
 
-    const PF = "http://localhost:8000/images/";
+    const PF = "https://blog-toronto.herokuapp.com/images/";
     return (
         <div className="viewpost">
             <div className="viewPostWrapper">

@@ -6,7 +6,7 @@ import "./navbarcomp.css";
 export default function NavbarComp() {
 
     const { user, dispatch } = useContext(Context);
-    const PF = "http://localhost:8000/images/"
+    const PF = "https://blog-toronto.herokuapp.com/images/"
 
     const handleLogout = () => {
         dispatch({type: "LOGOUT"});
