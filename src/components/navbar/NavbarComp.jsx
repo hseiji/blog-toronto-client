@@ -34,7 +34,7 @@ export default function NavbarComp() {
                         </Nav>
                         <Nav className="me-0">
                             <Nav.Link href="/Edit">{user && "New Post"}</Nav.Link>
-                            <Nav.Link href="/login">{!user && "Login"}</Nav.Link>
+                            <Nav.Link href="/#/login">{!user && "Login"}</Nav.Link>
                             <Nav.Link href="/register">{!user && "Register"}</Nav.Link>
                             {/* <Nav.Link href="/settings">{user && "Settings"}</Nav.Link> */}
                             <Nav.Link href="/" onClick={handleLogout}>{user && "Logout"}</Nav.Link>

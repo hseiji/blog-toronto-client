@@ -27,24 +27,12 @@ function App() {
     <Router>
       <NavbarComp/>
       <Switch>
-          <Route exact path="/">
-            <Home/>
-          </Route>
-          <Route path="/edit">
-            {user ? <Edit/> : <Register/>}
-          </Route>
-          <Route path="/posts/:postId">
-            <Post/>
-          </Route>
-          <Route path="/login">
-            {user ? <Home/> : <Login/>}
-          </Route>
-          <Route path="/register">
-            {user ? <Home/> : <Register/>}
-          </Route>
-          <Route path="/settings">
-            {user ? <Settings/> : <Register/>}
-          </Route>
+          <Route exact path="/"><Home/></Route>
+          <Route path="/edit">{user ? <Edit/> : <Register/>}</Route>
+          <Route path="/posts/:postId"><Post/></Route>
+          <Route path="/login">{user ? <Home/> : <Login/>}</Route>
+          <Route path="/register">{user ? <Home/> : <Register/>}</Route>
+          <Route path="/settings">{user ? <Settings/> : <Register/>}</Route>
       </Switch>
     </Router>
   );
