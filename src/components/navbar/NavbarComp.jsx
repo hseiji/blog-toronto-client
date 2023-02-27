@@ -26,7 +26,7 @@ export default function NavbarComp() {
               navbarScroll
             >
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="#">About</Nav.Link>
+              <Nav.Link href="/#/about">About</Nav.Link>
               <Nav.Link href="#">Contact Us</Nav.Link>
               {/* <NavDropdown title="More" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">About</NavDropdown.Item>

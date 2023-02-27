@@ -9,6 +9,7 @@ import { useContext } from 'react'
 import { Context } from './components/context/Context'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
+import { About } from './components/pages/About'
 
 function App() {
   const { user } = useContext(Context)
@@ -22,6 +23,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="/about">
+          <About />
         </Route>
         <Route path="/edit">{user ? <Edit /> : <Register />}</Route>
         <Route path="/posts/:postId">
