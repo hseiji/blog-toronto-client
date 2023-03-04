@@ -9,7 +9,7 @@ import { useContext } from 'react'
 import { Context } from './components/context/Context'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
-import { About } from './components/pages/About'
+import { About } from './components/pages/about/About'
 
 function App() {
   const { user } = useContext(Context)
@@ -27,6 +27,7 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
+        <Route path="/contact"></Route>
         <Route path="/edit">{user ? <Edit /> : <Register />}</Route>
         <Route path="/posts/:postId">
           <Post />
