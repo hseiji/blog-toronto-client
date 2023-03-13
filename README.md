@@ -1,7 +1,7 @@
 # Toronto Gems
 
 This blog contains the most famous places of the city of Toronto as well as the hidden gems that you must check it out.
-[Please visit!](https://blog-toronto.netlify.app/#/)
+[Please visit!](https://blog-toronto-app.onrender.com/#/)
 
 ## Description
 
