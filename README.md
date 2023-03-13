@@ -21,3 +21,17 @@ Tech stack:
 - AWS
 
 Link for the [API](https://github.com/hseiji/blog-toronto-api)
+
+![tgems1](./public/images/tgems1.png)
+![tgems2](./public/images/tgems2.png)
+![tgems3](./public/images/tgems3.png)
+
+## Getting Started
+
+### `npm install`
+
+Install the npm packages
+
+### `npm start`
+
+Run the application on port 3000
