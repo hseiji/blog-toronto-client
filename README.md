@@ -1,17 +1,23 @@
 # Toronto Gems
 
-This blog contains the most famous places of the city of Toronto as well as the hidden gems that you must check it out.
+A full stack blog that contains popular places to visit in Toronto with some interesting details. Besides the must go places this blog contains some underrated spots worth checking before they get too popular.
+
+Tech stack: MongoDB, ExpressJs, ReactJs, NodeJs, Javascript, HTML and CSS.
+
 [Please visit!](https://blog-toronto-app.onrender.com/#/)
 
 ## Description
 
 In the project directory, you will find:
 
+Tech stack:
+
+- MongoDB/Mongoose
+- ExpressJs
+- ReactJs
+- NodeJs
 - Javascript, HTML, CSS
-- React functional components and hooks
-- NodeJS and ExpressJS
-- MongoDB and Mongoose
 - REST API
+- AWS
 
-
-
+Link for the [API](https://github.com/hseiji/blog-toronto-api)
